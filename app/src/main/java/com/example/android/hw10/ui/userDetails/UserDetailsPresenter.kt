@@ -21,7 +21,6 @@ class UserDetailsPresenter(val view: UserDetailsView) {
                 }
             }
             override fun onFailure(call: Call<User>, t: Throwable) {
-
                 view.hideSpinner()
             }
         })

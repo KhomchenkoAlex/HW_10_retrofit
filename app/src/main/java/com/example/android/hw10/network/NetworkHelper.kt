@@ -14,7 +14,7 @@ object NetworkHelper {
     }
 
     private val authInterceptor by lazy {
-        AuthHeaderInterceptor()
+        AuthInterceptor()
     }
 
     private val httpClient by lazy {
